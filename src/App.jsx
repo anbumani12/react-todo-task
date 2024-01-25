@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import Card from "./Components/Card";
-import Heading from "./Components/Heading";
-import Edit from "./Components/Edit";
-import All from "./Components/All";
-import Completed from "./Components/Completed";
-import NotCompleted from "./Components/NotCompleted";
+import Card from "./components/Card";
+import Heading from "./components/Heading";
+import Edit from "./components/Edit";
+import All from "./components/All";
+import Completed from "./components/Completed";
+import NotCompleted from "./components/NotCompleted";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
 const App = () => {
